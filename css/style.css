@@ -226,7 +226,9 @@ body{
 
 }
 
-.about{
+/*about*/
+
+.about__my-jobs{
     min-height: 400px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -235,16 +237,47 @@ body{
     align-items: center;
 }
 
-.about__img{
+.abaout__img__job{
     text-align: center;
 }
 
-.about__img--left{
+.abaout__img__job--left{
     text-align: left;
 }
 
-.about__picture{
+.about__picture__job{
     max-width: 80%;
+}
+
+.about__paragraph__job{
+    margin-bottom: 20px;
+    line-height: 1.5p;
+    font-weight: 300;
+}
+
+.about__learning .subtitle{
+    margin-bottom: 17px;
+}
+
+.about__learning{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    justify-content: center;
+}
+
+.about__front-end{
+    margin-bottom: 30px;
+    background: #ffffff;
+    box-shadow: 0px 15px 30px 0px rgb(0 0 0 / 10%);
+    
+    padding: 30px;
+    position: relative;
+}
+
+.cool__box{
+    min-width: 50%;
+    margin-left: 5% ;
+    margin-right: 5% ;
 }
 
 .about__paragraph{
@@ -381,12 +414,10 @@ body{
 }
 
 .footer .footer__text{
+    padding: 1%;
     justify-content: center;
     display: flex;
     align-items: center;
     color: #fff;
 }
 
-body > footer > div > p{
-    justify-content: center;
-}
