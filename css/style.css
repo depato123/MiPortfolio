@@ -88,6 +88,10 @@ body{
     width: 300px;
 }
 
+.hero__wave {
+    height: 24vh;
+}
+
 body > header > nav > div > div > h2{
     color: white;
 }
@@ -111,18 +115,24 @@ body > header > nav > div > div > h2:hover{
 
 /*HEro/*/
 .hero .container{
+    height: 76vh;
+    display: flex;
     padding: 0;
     position: relative;
+    margin: auto;
 }
 
 
 .hero__container{
-    margin-top: 25%;
-    display: flex;
     height: 50%;
     align-items: center;
     color: white;
-    
+    display: flex;
+    margin: auto;
+}
+
+.hero__wave {
+    height: 24vh;
 }
 
 
@@ -349,6 +359,10 @@ body > header > nav > div > div > h2:hover{
     margin-right: 30px;
 }
 
+.hero_text {
+    text-align: center;
+}
+
 .testimony__name{
     font-size: 1.5rem;
     margin-bottom: 10px;
@@ -383,200 +397,3 @@ body > header > nav > div > div > h2:hover{
 body > footer > div > p{
     justify-content: center;
 }
-
-/* Responside desing */ 
-
-
-@media screen and (max-width: 800px){
-    :root{
-        --boton-padding: 18px 40px;
-    }  
-
-    .hero{
-        height: 526px;
-        max-height: 600px;
-
-    }
-
-    .hero__container{
-        height: calc(40vh - 70px)
-        
-    }
-
-
-    .hero__div1{
-        display: inline-block;
-    }
-
-
- /*   .nav__items--cta{
-        border: none;
-    }
-
-
-    .nav{
-        justify-content: space-around;
-    }
-
-    .nav_items--cta{
-        border: none;
-    }
-
-    .nav__items{
-        font-weight: 400;
-        border-bottom: 1px solid white;
-        margin-right: 0;
-    }
-
-    .nav__items--footer{
-        border: none;
-    }
-
-    .hero__texts{
-        width: 100%;
-        margin-bottom: 80px;
-
-    } */
-
-    .hero__title{
-        font-size: 2.5rem;
-
-    }
-
-    .hero__subtitle{
-        font-size: 1.5rem;
-
-    }
-
-    /*about*/
-
-    .presentation__copy{
-        width: 100%;
-    }
-
-    .about{
-        grid-template-columns: 1fr;
-    }
-
-    .about.cointainer{
-        padding-top: 30px;
-    }
-
-    .about__img--left{
-        text-align: center;
-    }
-
-    .about__texts:last-child{
-        grid-row: 3/4;
-    }
-
-
-    /*Proyectos */ 
-    .projects__grid{
-        grid-template-areas:
-        "img1 img1 img2 img2"
-        "img1 img1 img3 img3"
-        "img4 img4 img5 img5"
-    }
-
-    /*footer*/
-
-}
-
-@media screen and (max-width: 500px){
-    :root{
-        --boton-padding: 18px 35px;
-    }
-
-
-    .hero{
-        height: 580px;
-    }
-
-
-    .hero__logo{
-        height: 50%;
-    }
-
-    .nav{
-        opacity: 0;
-    }
-    
-    .hero__container{
-        height: calc(41vh - 70px);
-    }
-
-    .subtitle{
-        font-size: 2rem;
-        margin-bottom: 20px;
-    }
-
-    .hero__cta{
-        margin-left: 55px;
-    }
-
-    .hero__dcv{
-        margin-top: 10px;
-        margin-left: 50px;
-    }
-
-    .nav{
-        margin: 5%;
-        display:flex;
-        flex-direction: column;
-    }
-    .nav__items{
-        padding: 0 0px;
-        border: 0;
-
-    }
-
-    .hero__texts{
-        text-align: center;
-        margin-bottom: 100px;
-    }
-
-
-    .presentation__picture{
-        width: 120px;
-        height: 120px;
-    }
-
-    .about{
-        row-gap: 60px;
-    }
-
-    .about.cointainer{
-        padding-top: 10px;
-    }
-
-
-    .projects__grid{
-        grid-template-areas: 
-        "img1"
-        "img2"
-        "img3"
-        "img4"
-        "img5";
-        height: auto;
-        grid-template-rows: 5, 250px;
-        grid-auto-rows: 250px;
-        gap: 10px;
-    }
-
-    .testimony__grid{
-        display: block;
-        text-align: center;
-    }
-
-    .testimony__person{
-        display: block;
-        padding: auto;
-    }
-
-    .testimony__img{
-        margin:auto;
-    }
-
-}
-    
