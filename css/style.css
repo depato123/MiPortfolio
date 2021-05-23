@@ -86,20 +86,14 @@ body{
     align-items: center;
     justify-content: center;
     width: 300px;
+    color:white;
 }
 
-.hero__wave {
-    height: 24vh;
-}
+.navbar__logo:hover{
+    font-size: 1.02rem;
+}    
 
-body > header > nav > div > div > h2{
-    color: white;
-}
 
-body > header > nav > div > div > h2:hover{
-    font-size: 1.6em;
-    transition-duration: 0.05s;
-}
 
 .navbar__menu--list{
     color: #fff;
@@ -130,11 +124,6 @@ body > header > nav > div > div > h2:hover{
     display: flex;
     margin: auto;
 }
-
-.hero__wave {
-    height: 24vh;
-}
-
 
 
 .hero__texts{
@@ -191,11 +180,15 @@ body > header > nav > div > div > h2:hover{
 }
 
 
+.hero .hero__wave{
+    position: absolute;
+    bottom: 0;
+}
 
 /* About */
 
 .presentation{
-    padding-top: 5;
+    padding-top: 5px;
     text-align: center;
 }
 
