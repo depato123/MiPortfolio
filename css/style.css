@@ -374,11 +374,14 @@ body > header > nav > div > div > h2:hover{
 }
 
 .footer .footer__text{
-    padding: 1%;
-    width: 35%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
     color: #fff;
-    text-align: center;
-    margin-left: 32%;
+}
+
+body > footer > div > p{
+    justify-content: center;
 }
 
 /* Responside desing */ 
