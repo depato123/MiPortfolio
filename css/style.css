@@ -27,7 +27,9 @@ body{
 }
 /*Background*/
 .hero{ 
-    height: 95vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-image: var(--background), url('../assets/alvaro-reyes-fSWOVc3e06w-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
