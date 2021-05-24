@@ -16,7 +16,7 @@ body{
     margin: 0 auto;
     overflow: hidden;
     max-width: 1200px;
-    padding: 80px 0;
+    padding: 65px 0;
 }
 
 .subtitle{
@@ -188,17 +188,22 @@ body{
 /* About */
 
 .presentation{
-    padding-top: 5px;
+    height: 85vh;
     text-align: center;
+}
+
+body > section.presentation.container{
+    padding: 100px;
 }
 
 .presentation__picture{
 
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     object-fit: cover;
+    box-shadow: 0px 7px 15px 0px rgb(0 0 0 / 10%);
     object-position: top;
 }
 
@@ -287,15 +292,18 @@ body{
 }
 
 /* prjects*/
-
+body > section.projects__fondo > div{
+    padding: 50px 0;
+}
 
 .projects__fondo{
     background:#f2f2f2;
+    height: 95vh;
 }
 
 .projects__grid{
     display: grid;
-    height: 500px;
+    height: 70vh;
     grid-template-areas:
     "img1 img1 img2 img5"
     "img1 img1 img3 img4";
